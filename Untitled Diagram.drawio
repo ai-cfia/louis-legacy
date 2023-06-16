@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T18:10:31.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" version="21.4.0" etag="GeEpDR1WdsglnRAcQOX6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T19:10:42.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="vtu9qFZ6U7JAXPIJH7iM" version="21.4.0" type="github">
   <diagram name="Page-1" id="QisKqJQTr78yY6GR3V8y">
-    <mxGraphModel>
+    <mxGraphModel dx="875" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="imtuo94c9DjpuYoDBl3Q-1" value="Postgres" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="760" y="654.5" width="50" height="49" as="geometry" />
+        </mxCell>
+        <object label="scrapy/goldie&lt;br&gt;load from site dump" id="imtuo94c9DjpuYoDBl3Q-2">
+          <mxCell style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="1">
+            <mxGeometry x="610" y="524.5" width="52" height="62" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="scrapy/hawn&lt;br&gt;chunk HTML&amp;nbsp;&lt;br&gt;tokenize" id="imtuo94c9DjpuYoDBl3Q-5">
+          <mxCell style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="1">
+            <mxGeometry x="604" y="634.5" width="52" height="62" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="scrapy/kurt&lt;br&gt;create embeddings" id="imtuo94c9DjpuYoDBl3Q-6">
+          <mxCell style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="1">
+            <mxGeometry x="610" y="774.5" width="52" height="62" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="imtuo94c9DjpuYoDBl3Q-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.folders;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="78" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="imtuo94c9DjpuYoDBl3Q-8" value="text-embedding-ada-002" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#067F68;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
+          <mxGeometry x="410" y="744.5" width="78" height="78" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
